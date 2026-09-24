@@ -38,5 +38,16 @@ Kriteria selesai saya: mengubah --color-primary di satu baris harus mengubah war
 
 
 ## PERTEMUAN 3 Penggunaan AI 
+
+Topik halaman: Daftar drama Korea favorit
+Judul Halaman: Daftar drama korea favorit saya
+Deskripsi: Website ini berisi daftar drama Korea favorit saya beserta tahun rilis, genre, sutradara, dan rating.
+Tautan Navigasi: Beranda, Daftar Drama, Genre
+Dua bagian utama: Daftar rincian drama, tambah drama favorit
+Kolom tabel: Judul, Tahun, Genre, Sutradara, Rating/10
+Kolom form: Judul Drama, Tahun, Genre, Sutradara, Rating
+Gambar: aos.jpg (poster Alchemy of Souls) dan mylib.jpg (quotes My Liberation Notes)
+
+
 Penggunaan AI:
 AI digunakan untuk membantu cara mencari tahu lighthouse dan DevTools pada VSCode 
