@@ -6,7 +6,7 @@ Repositori Tugas Mata Kuliah PABW
  
 - Berkas gaya yang akan dibuat: tokens.css, base.css,
   layout.css, komponen.css, tema.css
-- Warna utama: #F29BB9 (pink), dipilih karena saya cenderung menyukai warna pink
+- Warna utama: #F6B7CE(pink), dipilih karena saya cenderung menyukai warna pink
  
 ### Token yang saya tetapkan
  
@@ -17,7 +17,7 @@ Repositori Tugas Mata Kuliah PABW
 | --color-border | #F29BB9 | garis tepi kotak |
 | --color-danger | #A6033B | untuk peringatan |
 | --color-focus | #000000 | garis fokus |
-| --color-fg | #5D7B3D | warna teks utama |
+| --color-fg | #425A2A | warna teks utama |
 | --color-bg | #F29BB9 | latar halaman |
 | --radius-md | 0.5rem | sudut tombol dan kartu |
 | --space-1 | 0.25rem | jarak paling rapat dalam komponen |
