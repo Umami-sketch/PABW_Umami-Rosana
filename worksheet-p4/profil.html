@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="id">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TODO C.1: buat <header> di sini.
+       Isinya: satu <h1> berisi judul halaman Anda.
+       Di dalamnya juga ada <nav> berisi 3 tautan ke bagian halaman. -->
+<head>
+  <title>Daftar drama korea favorit saya</title>
+    
+</head>
+<body>
+<body>
+  <header>
+    <h1>Daftar drama korea favorit saya</h1>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#Beranda">Beranda</a></li>
+        <li><a href="#Daftar-Drama">Daftar Drama</a></li>
+        <li><a href="#Genre">Genre</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- TODO C.2: buat <main> di sini sebagai pembungkus semua bagian isi.
+       Di dalamnya ada 2 <section>, masing-masing punya <h2> sendiri. --> 
+  <main>
+    <section id="Daftar-Rincian-Drama">
+      <h2>Daftar Rincian Drama</h2>
+      <!-- tabel Anda nanti di sini (Lembar D) -->
+       <!-- TODO D.1: di dalam section pertama, buat tabel data Anda.
+         Wajib ada: <caption>, <thead>, <th scope="col">, dan minimal 3 baris data. -->
+    <table>
+    <caption>Daftar Drama Favorit</caption>
+    <thead>
+        <tr>
+        <th scope="col">Judul</th>
+        <th scope="col">Tahun</th>
+        <th scope="col">Genre</th>
+        <th scope="col">Sutradara</th>
+        <th scope="col">Rating/10</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">Alchemy of Souls</th>
+        <td>2022</td>
+        <td>Action, Historical, Romance, Fantasy</td>
+        <td>Park Joon-hwa</td>
+        <td>9.9</td>
+        </tr>
+
+        <tr>
+        <th scope="row">My Liberation Notes</th>
+        <td>2022</td>
+        <td>Slice of Life</td>
+        <td>Kim Seok-yoon</td>
+        <td>9.8</td>
+        </tr>
+
+        <tr>
+        <th scope="row">The Good Bad Mother</th>
+        <td>2023</td>
+        <td>Family</td>
+        <td>Shim Na-yeon</td>
+        <td>9.5</td>
+        </tr>
+
+        <tr>
+        <th scope="row">Flower of Evil</th>
+        <td>2020</td>
+        <td>Thriller</td>
+        <td>Kim Cheol-Kyu</td>
+        <td>9.4</td>
+        </tr>
+
+        <tr>
+        <th scope="row">We Are All Trying Here</th>
+        <td>2026</td>
+        <td>Black Comedy</td>
+        <td>Cha Young-hoon</td>
+        <td>8.5</td>
+        </tr>
+    </tbody>
+    </table>
+
+    </section>
+
+    <figure>
+    <img src="aos.jpg"
+        alt="Poster drama Alchemy of Souls"
+        width="300" height="360" loading="lazy">
+    <figcaption>Poster Drama Alchemy of Souls</figcaption>
+    </figure>
+
+    <figure>
+    <img src="mylib.jpg"
+        alt="Quotes dari drama My Liberation Notes"
+        width="280" height="360" loading="lazy">
+    <figcaption>Quotes My Liberation Notes</figcaption>
+    </figure>
+    
+<!-- TODO E.1: di dalam section kedua, buat form Anda.
+         Wajib ada: minimal 3 kolom, setiap kolom punya <label for> yang
+         cocok dengan id input-nya, dan satu atribut validasi. -->
+       <section id="Tambah-Drama-Favorit">
+        <h2>Tambah Drama Favorit</h2>
+
+        <form action="/simpan" method="post"></form>
+            <p>
+            <label for="Judul-Drama">Judul Drama</label>
+            <input type="text" id="Judul-Drama" name="Judul-Drama" required>
+            </p>
+            <p>
+            <label for="Tahun">Tahun</label>
+            <input type="number" id="Tahun" name="Tahun" min="0000" max="2026" placeholder="YYYY">
+            </p>
+            <p>
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" name="genre" required>
+            </p>
+            <p>
+            <label for="Sutradara">Sutradara</label>
+            <input type="text" id="Sutradara" name="Sutradara" required>
+            </p>
+            <p>
+            <label for="Rating">Rating</label>
+            <input type="number" id="Rating" name="Rating" min="1" max="10">
+            </p>
+            <button type="submit">Simpan</button>
+        </form>
+        </section> 
+  </main>
+ <!-- TODO C.3: buat <footer> di sini.
+       Isinya: nama Anda, NIM Anda, dan tahun. -->
+  <footer>
+    <p>Umami Rosana Mukhson · 25523199 · 2026</p>
+  </footer>
+</body>
+
+    
+
+</body>
+</html>
