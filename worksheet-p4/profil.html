@@ -42,6 +42,7 @@
 <body>
 <body>
   <header>
+    <div class="header-baris">
     <h1>Daftar drama korea favorit saya</h1>
     <nav aria-label="Navigasi utama">
       <ul>
@@ -50,6 +51,7 @@
         <li><a href="#Genre">Genre</a></li>
       </ul>
     </nav>
+    </div>
   </header>
 <!-- TODO C.2: buat <main> di sini sebagai pembungkus semua bagian isi.
        Di dalamnya ada 2 <section>, masing-masing punya <h2> sendiri. --> 
@@ -59,6 +61,8 @@
       <!-- tabel Anda nanti di sini (Lembar D) -->
        <!-- TODO D.1: di dalam section pertama, buat tabel data Anda.
          Wajib ada: <caption>, <thead>, <th scope="col">, dan minimal 3 baris data. -->
+    <div class="katalog">
+    <div class="kartu">
     <table>
     <caption>Daftar Drama Favorit</caption>
     <thead>
@@ -112,23 +116,30 @@
         </tr>
     </tbody>
     </table>
+    </div>
+    </div>
 
+    <!-- bagian gambar -->
     </section>
-
-    <figure>
+     <section id="Gambar-Drama">
+    <h2>Poster Drama</h2>
+    <div class="katalog">
+    <figure class="kartu">
     <img src="aos.jpg"
         alt="Poster drama Alchemy of Souls"
         width="300" height="360" loading="lazy">
     <figcaption>Poster Drama Alchemy of Souls</figcaption>
     </figure>
-
-    <figure>
+    
+    <figure class="kartu">
     <img src="mylib.jpg"
         alt="Quotes dari drama My Liberation Notes"
         width="280" height="360" loading="lazy">
     <figcaption>Quotes My Liberation Notes</figcaption>
     </figure>
-    
+    </div>
+  </section>
+  
 <!-- TODO E.1: di dalam section kedua, buat form Anda.
          Wajib ada: minimal 3 kolom, setiap kolom punya <label for> yang
          cocok dengan id input-nya, dan satu atribut validasi. -->
@@ -136,26 +147,31 @@
         <h2>Tambah Drama Favorit</h2>
 
         <form action="/simpan" method="post"></form>
-            <p>
+            <div class="form-kolom">
             <label for="Judul-Drama">Judul Drama</label>
             <input type="text" id="Judul-Drama" name="Judul-Drama" required>
-            </p>
-            <p>
+            <span class="pesan-galat">Judul wajib diisi.</span>
+            </div>
+            <div class="form-kolom">
             <label for="Tahun">Tahun</label>
             <input type="number" id="Tahun" name="Tahun" min="0000" max="2026" placeholder="YYYY">
-            </p>
-            <p>
+            <span class="pesan-galat">Tahun harus antara 1900–2026.</span>
+            </div>
+            <div class="form-kolom">
             <label for="genre">Genre</label>
             <input type="text" id="genre" name="genre" required>
-            </p>
-            <p>
+            <span class="pesan-galat">Genre wajib diisi.</span>
+            </div>
+            <div class="form-kolom">
             <label for="Sutradara">Sutradara</label>
             <input type="text" id="Sutradara" name="Sutradara" required>
-            </p>
-            <p>
+            <span class="pesan-galat">Sutradara wajib diisi.</span>
+            </div>
+            <div class="form-kolom">
             <label for="Rating">Rating</label>
             <input type="number" id="Rating" name="Rating" min="1" max="10">
-            </p>
+            <span class="pesan-galat">Rating harus antara 1–10.</span>
+            </div>
             <button type="submit">Simpan</button>
         </form>
         </section> 

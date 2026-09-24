@@ -13,7 +13,8 @@ html {
  
 body {
   font-family: system-ui, "Segoe UI", Roboto, sans-serif;
-  font-size: var(--text-md);
+  font-size: var(--text-md); 
+  /* sudah memanggil token (dari tokens.css) */
   line-height: 1.6;           /* 1.5-1.7 nyaman untuk teks isi */
   color: var(--color-fg);
   background: var(--color-bg);
