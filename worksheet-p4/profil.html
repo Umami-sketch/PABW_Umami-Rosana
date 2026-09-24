@@ -9,6 +9,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- taruh di dalam <header>, sebelum judul -->
+<input type="checkbox" id="tema" class="pengalih-tema">
+<label for="tema" class="tombol-tema">Tema gelap</label>
+ 
+/* CSS */
+.pengalih-tema { position: absolute; opacity: 0; pointer-events: none; }
+ 
+/* Pilihan manual HARUS berada setelah blok media query,
+   supaya menang saat keduanya menyala bersamaan. */
+:root:has(#tema:checked) {
+  --color-bg:      #0F172A;
+  --color-fg:      #E2E8F0;
+  --color-surface: #1E293B;
+  --color-border:  #334155;
+  --color-primary: #7DA9F7;
+  --color-danger:  #FF8A8A;
+  --color-focus:   #FFC000;
+}
+
   <title>Daftar drama korea favorit saya</title>
  
   <!-- urutan ini yang benar: token -> dasar -> tata letak -> komponen -> tema -->
