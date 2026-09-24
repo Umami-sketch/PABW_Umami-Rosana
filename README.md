@@ -31,13 +31,12 @@ Repositori Tugas Mata Kuliah PABW
 | --text-md | 1rem | Teks isi 
 | --text-xl | 1.5rem | Judul bagian
 | --text-3xl | 2.25rem | Judul halaman
-
-
  
 Kriteria selesai saya: mengubah --color-primary di satu baris harus mengubah warna tombol, tautan, judul, dan garis fokus.
 
+Penggunaan AI: membantu memahami maksud dari worksheet di bagian E hingga G, membantu memahami var serta format warna seperti blue -900, membantu mencari tahu bagaimana cara mengecek skor css network menggunakan devtools. 
 
-## PERTEMUAN 3 Penggunaan AI 
+## PERTEMUAN 3 
 
 Topik halaman: Daftar drama Korea favorit
 Judul Halaman: Daftar drama korea favorit saya
