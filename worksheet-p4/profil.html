@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 
 <html lang="id">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- TODO C.1: buat <header> di sini.
+
+  <!-- TODO C.1: buat <header> di sini.
        Isinya: satu <h1> berisi judul halaman Anda.
        Di dalamnya juga ada <nav> berisi 3 tautan ke bagian halaman. -->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- taruh di dalam <header>, sebelum judul -->
-<input type="checkbox" id="tema" class="pengalih-tema">
-<label for="tema" class="tombol-tema">Tema gelap</label>
- 
-/* CSS */
-.pengalih-tema { position: absolute; opacity: 0; pointer-events: none; }
- 
-/* Pilihan manual HARUS berada setelah blok media query,
-   supaya menang saat keduanya menyala bersamaan. */
-:root:has(#tema:checked) {
-  --color-bg:      #0F172A;
-  --color-fg:      #E2E8F0;
-  --color-surface: #1E293B;
-  --color-border:  #334155;
-  --color-primary: #7DA9F7;
-  --color-danger:  #FF8A8A;
-  --color-focus:   #FFC000;
-}
 
   <title>Daftar drama korea favorit saya</title>
  
@@ -40,7 +21,6 @@
 </head>
 
 <body>
-<body>
   <header>
     <div class="header-baris">
     <h1>Daftar drama korea favorit saya</h1>
@@ -51,6 +31,10 @@
         <li><a href="#Genre">Genre</a></li>
       </ul>
     </nav>
+    
+    <!-- tombol tema -->
+    <input type="checkbox" id="tema" class="pengalih-tema">
+    <label for="tema" class="tombol-tema">Tema gelap</label>
     </div>
   </header>
 <!-- TODO C.2: buat <main> di sini sebagai pembungkus semua bagian isi.
@@ -146,7 +130,7 @@
        <section id="Tambah-Drama-Favorit">
         <h2>Tambah Drama Favorit</h2>
 
-        <form action="/simpan" method="post"></form>
+        <form action="/simpan" method="post">
             <div class="form-kolom">
             <label for="Judul-Drama">Judul Drama</label>
             <input type="text" id="Judul-Drama" name="Judul-Drama" required>
@@ -154,7 +138,7 @@
             </div>
             <div class="form-kolom">
             <label for="Tahun">Tahun</label>
-            <input type="number" id="Tahun" name="Tahun" min="0000" max="2026" placeholder="YYYY">
+            <input type="number" id="Tahun" name="Tahun" min="1900" max="2026" placeholder="YYYY">
             <span class="pesan-galat">Tahun harus antara 1900–2026.</span>
             </div>
             <div class="form-kolom">
@@ -181,9 +165,5 @@
   <footer>
     <p>Umami Rosana Mukhson · 25523199 · 2026</p>
   </footer>
-</body>
-
-    
-
 </body>
 </html>
