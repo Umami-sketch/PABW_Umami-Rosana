@@ -23,10 +23,10 @@
  
 /* LAPIS 2 — semantik: peran. Isinya mengacu ke lapis 1. */
 :root {
-  --color-bg:       #F29BB9;
+  --color-bg:       #F6B7CE;
   --color-fg:       #425A2A;
   --color-surface:  #FCC7DA;
-  --color-border:   #F29BB9;
+  --color-border:   #A6033B;
   --color-primary:  #354524;
   --color-danger:   #A6033B;
   --color-focus:    #000000;

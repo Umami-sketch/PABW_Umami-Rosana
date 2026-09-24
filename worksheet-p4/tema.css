@@ -4,7 +4,7 @@
     --color-bg:      #0F172A;
     --color-fg:      #E2E8F0;
     --color-surface: #1E293B;
-    --color-border:  #334155;
+    --color-border:  #64748B;
     --color-primary: #7DA9F7;   /* versi lebih terang agar kontras tetap lolos */
     --color-danger:  #FF8A8A;
     --color-focus:   #FFC000;
@@ -17,7 +17,7 @@
   --color-bg:      #0F172A;
   --color-fg:      #E2E8F0;
   --color-surface: #1E293B;
-  --color-border:  #334155;
+  --color-border:  #64748B;
   --color-primary: #7DA9F7;
   --color-danger:  #FF8A8A;
   --color-focus:   #FFC000;
