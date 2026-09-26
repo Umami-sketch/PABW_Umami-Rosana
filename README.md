@@ -36,7 +36,7 @@ Kriteria selesai saya: mengubah --color-primary di satu baris harus mengubah war
 
 Penggunaan AI: membantu memahami maksud dari worksheet di bagian E hingga G, membantu memahami var serta format warna seperti blue -900, membantu mencari tahu bagaimana cara mengecek skor css network menggunakan devtools. 
 
-## PERTEMUAN 3 
+## Pertemuan 3 
 
 Topik halaman: Daftar drama Korea favorit
 Judul Halaman: Daftar drama korea favorit saya
