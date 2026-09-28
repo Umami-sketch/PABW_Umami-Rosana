@@ -1,8 +1,4 @@
-/* ==========================================
-   KOMPONEN.CSS — Komponen & Elemen Spesifik
-   ========================================== */
 
-/* ---------- FORM & INPUT (Lembar B & E) ---------- */
 .form-kolom {
   display: flex;
   flex-direction: column;
@@ -35,23 +31,16 @@ button {
   align-self: flex-start;       /* tombol tidak melebar mengikuti form */
 }
 
-/* ---------- AKSESIBILITAS FOKUS PAPAN KETIK ---------- */
 :focus-visible {
   outline: 2px solid var(--color-focus);
   outline-offset: 2px;
 }
 
-/* tombol Tab untuk berpindah dari satu elemen ke elemen lain, mereka butuh garis penanda. 
-Tanpa ini, mereka "buta" dan tidak tahu sedang berada di mana. */
-
-/* ---------- VALIDASI FORM (Lembar E) ---------- */
-/* benar — hanya setelah pengguna mengetik sesuatu yang tidak sah */
 input:user-invalid {
   border-color: var(--color-danger);
   border-width: 2px;
 }
 
-/* Pesan galat: sembunyikan selama belum tidak-sah, tampilkan saat perlu */
 .pesan-galat {
   display: none;
   color: var(--color-danger);
@@ -62,14 +51,12 @@ input:user-invalid {
   display: block;
 }
 
-/* ---------- GALERI ADAPTIF (Lembar C.1) ---------- */
 .galeri {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: var(--space-4);
 }
 
-/* ---------- PERBAIKAN LUberAN (Lembar E.2 & E.3) ---------- */
 figure, table, input {
   min-width: 0;                 /* izinkan elemen menyusut, bukan meluber */
 }
@@ -78,16 +65,3 @@ figcaption, th, td, h1, h2, h3 {
   overflow-wrap: anywhere;      /* teks panjang membungkus, bukan melebarkan kolom */
 }
 
-/* ---------- KARTU (Lembar C & D) ---------- */
-.kartu {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-1);
-  padding: var(--card-pad);
-}
-
-/* Lembar D.1 — kartu yang menonjol (makan 2 kolom) */
-.sorotan {
-  grid-column: span 2;
-}
