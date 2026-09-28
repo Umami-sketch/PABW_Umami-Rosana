@@ -13,26 +13,25 @@ header {
 /* Navbar (dulu .header-baris) */
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center;          /* sumbu silang: rata tengah */
+  justify-content: space-between; /* sumbu utama: judul kiri, menu kanan */
   gap: var(--space-4);
-  flex-wrap: wrap;
+  flex-wrap: wrap;              /* turun baris di layar sempit, jangan meluber */
 }
-
-.nav-links {
+ 
+nav ul {
   display: flex;
   gap: var(--space-4);
-  list-style: none;
+  list-style: none;             /* daftar nav tanpa butir */
   padding: 0;
 }
-
-.nav-links a {
+ 
+nav a {
   color: var(--color-primary);
   text-decoration: none;
 }
-
-.nav-links a:hover {
-  text-decoration: underline;
+ 
+nav a:hover { text-decoration: underline; 
 }
 
 /* .navbar {
@@ -45,7 +44,7 @@ header {
 
 .isi {
   display: grid;
-  grid-template-columns: 18rem 1fr;
+  grid-template-columns: 16rem 1fr;
   grid-template-areas:
     "sisi utama";
   gap: var(--space-6);
@@ -59,8 +58,7 @@ header {
   flex-direction: column;
   gap: var(--section-gap);
   padding-block: var(--space-6);
-} */
-/* KITA GANTI dengan class isi dengan format, jangan biarkan ada 2 aturan nnti bentrok */ 
+/* } KITA GANTI dengan class isi dengan format, jangan biarkan ada 2 aturan nnti bentrok */ 
 
 .sisi {
   grid-area: sisi;
@@ -72,13 +70,32 @@ header {
 }
 
 .utama {
-  grid-area: utama;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   gap: var(--section-gap);
-  min-width: 0;        penting! biar tidak meluber */
+  min-width: 0;        /* penting! biar tidak meluber */
 }
 
+.galeri {
+  display: grid;  /* aktifkan mode grid */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-4);
+}
+
+.kartu__kaki {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+/* .kartu {
+  background: var(--color-surface); 
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-1);
+  padding: var(--card-pad);
+} */
 
 .footer {
   padding-block: var(--space-4);
@@ -86,3 +103,4 @@ header {
   color: var(--color-fg);
   font-size: var(--text-sm);
 }
+

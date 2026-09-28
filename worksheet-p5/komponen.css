@@ -1,4 +1,3 @@
-
 .form-kolom {
   display: flex;
   flex-direction: column;
@@ -64,4 +63,3 @@ figure, table, input {
 figcaption, th, td, h1, h2, h3 {
   overflow-wrap: anywhere;      /* teks panjang membungkus, bukan melebarkan kolom */
 }
-
