@@ -19,19 +19,21 @@ header {
   flex-wrap: wrap;              /* turun baris di layar sempit, jangan meluber */
 }
  
-nav ul {
+.sisi nav ul {
   display: flex;
-  gap: var(--space-4);
-  list-style: none;             /* daftar nav tanpa butir */
+  flex-direction: column;
+  gap: var(--space-2);
   padding: 0;
+  list-style: none;
 }
- 
-nav a {
+
+.sisi a {
   color: var(--color-primary);
   text-decoration: none;
 }
- 
-nav a:hover { text-decoration: underline; 
+
+.sisi a:hover {
+  text-decoration: underline;
 }
 
 /* .navbar {
