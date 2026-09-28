@@ -2,6 +2,17 @@
 Repositori Tugas Mata Kuliah PABW 
 
 
+## Pertemuan 5
+
+CATATAN: 
+Saya mengubah navbar dari "Beranda, Daftar Drama, dan Genre" menjadi "Daftar Rincian Drama, Poster Drama, Tambah Drama Favorit" sehingga datanya berbeda dengan file profil.html sebelumnya maupun dalam worksheet p3. 
+Alasan mengubah navbar: karena setelah dipahami, penamaan navbar belum sesuai dengan konten yang ada pada <h2> . 
+
+Penggunaan AI: 
+AI digunakan untuk membantu memahami konsep design token, flexbox, dan grid, serta membantu debugging struktur HTML. AI juga digunakan untuk membantu memperbaiki masalah seperti kartu tidak rata, isi yang meluber maupun form yang terlalu lebar. 
+
+
+
 ## Pertemuan 4 — Design token halaman profil
  
 - Berkas gaya yang akan dibuat: tokens.css, base.css,
