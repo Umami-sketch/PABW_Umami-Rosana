@@ -1,13 +1,40 @@
 /* dasar: berlaku di semua lebar */
-.content {
-  display: grid;
+.isi {
+  /* display: grid; */
   grid-template-columns: 1fr;
-  gap: var(--space-4);
+  /* gap: var(--space-4); */
 }
 
-.grid {
-  display: grid;
+.galeri {
+  /* display: grid; sdh ada di layout*/
   grid-template-columns: 1fr;
-  gap: var(--space-4);
+  /* gap: var(--space-4); */
 }
 
+/* tablet: galeri dua kolom */
+@media (min-width: 48rem) {
+  .galeri { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* desktop: sidebar bersanding dengan konten */
+@media (min-width: 60rem) {
+  .isi { grid-template-columns: 16rem 1fr; }
+  .galeri { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* gambar tidak melebihi wadahnya */
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* tabel lebar dapat digulir sendiri */
+.table-wrap { 
+    overflow-x: auto; 
+}
+
+/* teks mengikuti ukuran huruf pengguna */
+p { 
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
