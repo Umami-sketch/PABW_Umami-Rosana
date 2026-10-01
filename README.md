@@ -2,6 +2,11 @@
 Repositori Tugas Mata Kuliah PABW 
 
 
+## Pertemuan 6
+Penggunaan AI: 
+AI digunakan untuk membantu memahami konsep responsif design sehingga dapat mengerjakan worksheet dengan maksimal. 
+
+
 ## Pertemuan 5
 
 CATATAN: 

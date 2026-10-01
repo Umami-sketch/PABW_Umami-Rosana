@@ -7,6 +7,13 @@ Anda akan menghitung lebar dengan cara lama saat menulis aturan di atasnya. */
 * { margin: 0; }        /* Hapus jarak bawaan browser */
 img { max-width: 100%; height: auto; display: block; }
 
+/* tabel lebar dapat digulir sendiri */
+.table-wrap { overflow-x: auto; }
+
+/* teks mengikuti ukuran huruf pengguna */
+p { font-size: 1rem; line-height: 1.6; }
+
+
 html {
   font-size: 100%;            /* ikuti pengaturan pengguna, jangan dipatok */
 }
