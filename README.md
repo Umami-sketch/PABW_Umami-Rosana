@@ -1,6 +1,19 @@
 # PABW_Umami Rosana
 Repositori Tugas Mata Kuliah PABW 
 
+# Pertemuan 8
+ Penggunaan AI
+
+Bagian yang dibantu AI:
+  - Pemahaman konsep `map`, `filter`, `find`
+  - Debugging error `SyntaxError` dan `TypeError`
+
+Bagian yang saya kerjakan sendiri:
+  - Menulis semua kode di `app.js`
+  - Memilih data drama untuk array
+  - Membuat struktur HTML dan CSS
+  - Screenshot dan mengisi worksheet
+
 
 ## Pertemuan 6
 Penggunaan AI: 
