@@ -27,3 +27,34 @@ const formatKeahlian = (daftar) => daftar.join(" · ");
 //  Test 
 console.log(buatPerkenalan({ nama: "Umami Rosana Mukhson", peran: "Mahasiswa Informatika" }));
 console.log(formatKeahlian(["HTML", "CSS", "JavaScript"]));
+
+//  Lembar D: array of object dn array mthods 
+
+// 1. Array of object: daftar drama favorit
+const daftarDrama = [
+  { judul: "Alchemy of Souls",     tahun: 2022, genre: "Fantasy",  rating: 9.9, selesai: true  },
+  { judul: "My Liberation Notes",  tahun: 2022, genre: "Slice of Life", rating: 9.8, selesai: true  },
+  { judul: "The Good Bad Mother",  tahun: 2023, genre: "Family",   rating: 9.5, selesai: false },
+  { judul: "Flower of Evil",       tahun: 2020, genre: "Thriller", rating: 9.4, selesai: true  },
+  { judul: "We Are All Trying Here", tahun: 2026, genre: "Comedy", rating: 8.5, selesai: false }
+];
+
+// 2. console.table: liat data rapi
+console.table(daftarDrama);
+
+// 3. map: ambil judul tok
+const daftarJudul = daftarDrama.map((d) => d.judul);
+console.log("Judul saja:", daftarJudul);
+
+// 4. filter:  drama yg selesai ditonton
+const dramaSelesai = daftarDrama.filter((d) => d.selesai === true);
+console.table(dramaSelesai);
+
+// 5. find: cari drama tertentu
+const cariDrama = daftarDrama.find((d) => d.judul === "Flower of Evil");
+console.log("Cari Flower of Evil:", cariDrama);
+
+// Test: sort pakai salinan
+const urutJudul = [...daftarDrama].sort((a, b) => a.judul.localeCompare(b.judul));
+console.log("Setelah sort:", urutJudul.map(d => d.judul));
+console.log("Data asli:", daftarDrama.map(d => d.judul));
