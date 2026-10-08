@@ -1,0 +1,96 @@
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+/* grid mengatur posisi footer */
+
+header {
+  padding-block: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+ 
+/* Navbar (dulu .header-baris) */
+.navbar {
+  display: flex;
+  align-items: center;          /* sumbu silang: rata tengah */
+  justify-content: space-between; /* sumbu utama: judul kiri, menu kanan */
+  gap: var(--space-4);
+  flex-wrap: wrap;              /* turun baris di layar sempit, jangan meluber */
+}
+ 
+.sisi nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: 0;
+  list-style: none;
+}
+
+.sisi a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.sisi a:hover {
+  text-decoration: underline;
+}
+
+/* .navbar {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+} */
+
+/* ini sama aja kaya yang header yg sudah dibuat */
+
+.isi {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  grid-template-areas:
+    "sisi utama";
+  gap: var(--space-6);
+  padding-block: var(--space-6);
+}
+
+
+/* BAGIAN D.2 — KATALOG & FOOTER (Tambahkan di sini) */
+/* main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+  padding-block: var(--space-6);
+/* } KITA GANTI dengan class isi dengan format, jangan biarkan ada 2 aturan nnti bentrok */ 
+
+.sisi {
+  grid-area: sisi;
+}
+
+.utama {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+  min-width: 0;        /* penting! biar tidak meluber */
+}
+
+.galeri {
+  display: grid;  /* aktifkan mode grid */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-4);
+}
+
+.kartu__kaki {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+
+.footer {
+  padding-block: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-fg);
+  font-size: var(--text-sm);
+}
+
