@@ -58,3 +58,6 @@ console.log("Cari Flower of Evil:", cariDrama);
 const urutJudul = [...daftarDrama].sort((a, b) => a.judul.localeCompare(b.judul));
 console.log("Setelah sort:", urutJudul.map(d => d.judul));
 console.log("Data asli:", daftarDrama.map(d => d.judul));
+
+// coba bkin syntax error buat cek di console
+const angka = [1, 2, 3];
