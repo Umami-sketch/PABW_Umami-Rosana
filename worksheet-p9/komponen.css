@@ -103,3 +103,18 @@ figcaption, th, td, h1, h2, h3 {
   padding: 10px;
   margin-bottom: 6px;
 }
+
+/* GALAT DAN FORM */
+.pesan-galat {
+  display: none;
+  color: red;
+  font-size: 13px;
+}
+
+input[aria-invalid="true"] ~ .pesan-galat {
+  display: block;
+}
+
+input[aria-invalid="true"] {
+  border-color: red;
+}
