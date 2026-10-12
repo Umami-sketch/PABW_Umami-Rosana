@@ -31,7 +31,7 @@ console.log(formatKeahlian(["HTML", "CSS", "JavaScript"]));
 //  Lembar D: array of object dn array mthods 
 
 // 1. Array of object: daftar drama favorit
-const daftarDrama = [
+export const daftarDrama = [
   { judul: "Alchemy of Souls",     tahun: 2022, genre: "Fantasy",  rating: 9.9, selesai: true  },
   { judul: "My Liberation Notes",  tahun: 2022, genre: "Slice of Life", rating: 9.8, selesai: true  },
   { judul: "The Good Bad Mother",  tahun: 2023, genre: "Family",   rating: 9.5, selesai: false },
