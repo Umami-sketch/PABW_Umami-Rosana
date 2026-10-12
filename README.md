@@ -1,15 +1,30 @@
 # PABW_Umami Rosana
 Repositori Tugas Mata Kuliah PABW 
 
+# Pertemuan 9
+Bagian yang dibantu AI:
+  - Pemahaman konsep event delegation
+  - Debugging 404 dom.js dan tombol filter
+  - Panduan validasi form dengan preventDefault
+  - Membantu memahami bagian F DOM, Event, dan Interaktivitas agar dapt mengisi pertanyaan dalam worksheet dan paham akan penggunaannya
+
+Bagian yang saya kerjakan sendiri:
+  - Menulis semua kode di dom.js
+  - Menyusun HTML filter dan form
+  - Mengisi worksheet
+
+## Catatan
+Saya memahami setiap baris kode yang saya tulis dan bisa menjelaskannya.
+
 # Pertemuan 8
  Penggunaan AI
 
 Bagian yang dibantu AI:
-  - Pemahaman konsep `map`, `filter`, `find`
-  - Debugging error `SyntaxError` dan `TypeError`
+  - Pemahaman konsep map, filter, find
+  - Debugging error SyntaxError dan TypeError
 
 Bagian yang saya kerjakan sendiri:
-  - Menulis semua kode di `app.js`
+  - Menulis semua kode di app.js
   - Memilih data drama untuk array
   - Membuat struktur HTML dan CSS
   - Screenshot dan mengisi worksheet
