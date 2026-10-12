@@ -1,3 +1,4 @@
+
 // impor ke dom.js
 import { daftarDrama } from "./app.js";
 
@@ -8,7 +9,7 @@ const wadahDaftar = document.querySelector("#daftar");
 function buatKartu(drama) {
   const li = document.createElement("li"); //bikin list kosong
   li.className = "kartu-drama"; //style di css
-  li.textContent = `${drama.judul} (${drama.tahun}) —  ${drama.rating}`; //isi teks menggunakan template literal
+  li.textContent = `${drama.judul} (${drama.tahun}) — ⭐ ${drama.rating}`; //isi teks menggunakan template literal
   return li; //kiirm blik elemen 
 }
 
