@@ -1,6 +1,13 @@
 # PABW_Umami Rosana
 Repositori Tugas Mata Kuliah PABW 
 
+
+# Pertemuan 10
+Deklarasi AI:** konsep respons.ok, async/await, dan pemisahan
+lapisan dibantu AI; data, integrasi HTML, dan pengujian 4 keadaan
+dikerjakan sendiri.
+
+
 # Pertemuan 9
 Bagian yang dibantu AI:
   - Pemahaman konsep event delegation
