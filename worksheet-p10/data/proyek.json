@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "judul": "Alchemy of Souls",
+    "tahun": 2022,
+    "genre": "Fantasy",
+    "sutradara": "Park Joon-hwa",
+    "rating": 9.9,
+    "selesai": true
+  },
+  {
+    "id": 2,
+    "judul": "My Liberation Notes",
+    "tahun": 2022,
+    "genre": "Slice of Life",
+    "sutradara": "Kim Seok-yoon",
+    "rating": 9.8,
+    "selesai": true
+  },
+  {
+    "id": 3,
+    "judul": "The Good Bad Mother",
+    "tahun": 2023,
+    "genre": "Family",
+    "sutradara": "Shim Na-yeon",
+    "rating": 9.5,
+    "selesai": false
+  },
+  {
+    "id": 4,
+    "judul": "Flower of Evil",
+    "tahun": 2020,
+    "genre": "Thriller",
+    "sutradara": "Kim Cheol-Kyu",
+    "rating": 9.4,
+    "selesai": true
+  },
+  {
+    "id": 5,
+    "judul": "We Are All Trying Here",
+    "tahun": 2026,
+    "genre": "Comedy",
+    "sutradara": "Cha Young-hoon",
+    "rating": 8.5,
+    "selesai": false
+  }
+]
