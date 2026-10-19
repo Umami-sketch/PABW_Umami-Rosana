@@ -17,6 +17,8 @@ mekanisme tombol atur ulang, hingga simulasi perusakan simpanan JSON secara lang
 memastikan halaman tetap terbuka normal. Seluruh tahapan pengerjaan dan komitmen perubahan ke repositori Git dari 
 Lembar A hingga Lembar F juga dilakukan sendiri.
 
+'note' - p11
+Saya mengubah layout menjadi inline agar tetap berada di tengah halaman saat mengecilkan/membesarkan web, lalu
 # Pertemuan 10
 Deklarasi AI:** konsep respons.ok, async/await, dan pemisahan
 lapisan dibantu AI; data, integrasi HTML, dan pengujian 4 keadaan
