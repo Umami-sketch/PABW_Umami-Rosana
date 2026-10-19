@@ -1,6 +1,21 @@
 # PABW_Umami Rosana
 Repositori Tugas Mata Kuliah PABW 
 
+# Pertemuan 11
+Catatan Penggunaan AI
+Pada Pertemuan 11 ini, AI digunakan sebagai asisten diskusi dan penelaah kode (code reviewer). 
+AI membantu dalam merancang arsitektur pemisahan lima modul JavaScript (data.js, state.js, dom.js, events.js, dan app.js)
+agar alur impor antarberkas tidak mengalami circular dependency. 
+Selain itu, AI juga membantu menyusun logika pertahanan pada fungsi muat() di state.js 
+menggunakan try...catch dan pengecekan nomor versi skema localStorage, serta membantu melacak penyebab galat 
+ReferenceError pada app.js saat sesi pengujian objek state di Console.
+
+Sementara itu, penulisan dan penataan elemen tombol atur ulang pada berkas profil.html, perapian gaya CSS, 
+serta eksekusi pengujian interaktivitas di peramban dikerjakan secara mandiri. 
+Pengujian mandiri mencakup verifikasi fungsi penyaringan kategori drama, fitur toggle bintang favorit, 
+mekanisme tombol atur ulang, hingga simulasi perusakan simpanan JSON secara langsung melalui DevTools Console untuk 
+memastikan halaman tetap terbuka normal. Seluruh tahapan pengerjaan dan komitmen perubahan ke repositori Git dari 
+Lembar A hingga Lembar F juga dilakukan sendiri.
 
 # Pertemuan 10
 Deklarasi AI:** konsep respons.ok, async/await, dan pemisahan
@@ -85,7 +100,8 @@ AI digunakan untuk membantu memahami konsep design token, flexbox, dan grid, ser
  
 Kriteria selesai saya: mengubah --color-primary di satu baris harus mengubah warna tombol, tautan, judul, dan garis fokus.
 
-Penggunaan AI: membantu memahami maksud dari worksheet di bagian E hingga G, membantu memahami var serta format warna seperti blue -900, membantu mencari tahu bagaimana cara mengecek skor css network menggunakan devtools. 
+Penggunaan AI: membantu memahami maksud dari worksheet di bagian E hingga G, membantu memahami var serta format warna seperti blue -900, 
+membantu mencari tahu bagaimana cara mengecek skor css network menggunakan devtools. 
 
 ## Pertemuan 3 
 
