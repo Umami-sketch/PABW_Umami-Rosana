@@ -2,6 +2,9 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100dvh;
+  max-width: 75rem;       /* Batasi lebar halaman sekitar 1200px */
+  margin-inline: auto;    /* KUNCI: Membuat seluruh halaman berada di tengah layar */
+  padding-inline: var(--space-4); /* Beri jarak aman dari tepi layar monitor */
 }
 /* grid mengatur posisi footer */
 

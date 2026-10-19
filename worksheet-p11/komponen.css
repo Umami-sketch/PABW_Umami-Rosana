@@ -74,34 +74,53 @@ figcaption, th, td, h1, h2, h3 {
 /* p9p9p9p9p9p9p9p9p9p9p9pp9p9p9p9p9p9p9pp9p9p9p9p */
 
 #filter {
-  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
 }
 
 #filter button {
-  padding: 6px 12px;
-  margin-right: 5px;
-  border: 1px solid #999;
-  background: #eee;
-  color: #333;
+  font: inherit;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-fg);
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
+  transition: all 0.2s ease;
+}
+
+#filter button:hover {
+  border-color: var(--color-primary);
 }
 
 #filter button.aktif {
-  background: #333;
-  color: white;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  font-weight: 600;
 }
 
 #daftar {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 45rem; /* Batasi lebar kartu agar tidak melar kepanjangan */
 }
 
 .kartu-drama {
-  background: white;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 6px;
+  bdisplay: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-surface); /* Ikut gelap saat mode gelap */
+  color: var(--color-fg);           /* Teks otomatis kontras */
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  box-shadow: var(--shadow-1);
 }
 
 /* GALAT DAN FORM */
