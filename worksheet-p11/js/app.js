@@ -22,4 +22,3 @@ async function mulai() {
 
 mulai();
 // import { state } from "./state.js"; // jika belum diimpor
-window.state = state; // baris sementara untuk uji Console
