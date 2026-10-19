@@ -5,6 +5,14 @@
   max-width: 30rem;             /* batas lebar form agar tidak full halaman */
 }
 
+/* Tambahkan di komponen.css */
+#formDrama {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);  /* KUNCI: Memberi jarak seragam 1rem antar kolom dan ke tombol */
+  max-width: 30rem;
+}
+
 label {
   font-size: var(--text-sm);
   font-weight: 600;
