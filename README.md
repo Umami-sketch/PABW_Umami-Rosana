@@ -1,6 +1,14 @@
 # PABW_Umami Rosana
 Repositori Tugas Mata Kuliah PABW 
 
+# Pertemuan 12
+
+node -v
+v24.22.0
+npm -v 
+11.19.1
+
+
 # Pertemuan 11
 Catatan Penggunaan AI
 Pada Pertemuan 11 ini, AI digunakan sebagai asisten diskusi dan penelaah kode (code reviewer). 
