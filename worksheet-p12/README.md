@@ -1,5 +1,12 @@
-# Vue 3 + Vite
+# Pertemuan 12
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+node -v
+v24.22.0
+npm -v 
+11.19.1
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Catatan Penggunaan AI
+
+Pada Pertemuan 12 ini, AI dimanfaatkan untuk berdiskusi dan berkonsultasi teknis dalam memahami konsep dari ekosistem npm, pembagian dependencies vs devDependencies, dan alur reaktivitas Vue menggunakan Composition API. AI juga membantu menelaah penyebab galat yang sempat saya alami dengan pemanggilan render manual dan kesalahan impor berkas bawaan Vite yang sempat memicu galat 404 pada peramban.
+
+Seluruh proses pembuatan proyek melalui terminal, pemecahan kode HTML dan JavaScript dari Pertemuan 11 menjadi empat berkas Single File Component (.vue), pemindahan enam berkas CSS serta aset gambar ke folder public, hingga eksekusi pengujian npm run build dan npm run preview dikerjakan juga diverifikasi secara mandiri.
