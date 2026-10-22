@@ -120,7 +120,7 @@ figcaption, th, td, h1, h2, h3 {
 }
 
 .kartu-drama {
-  bdisplay: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--color-surface); /* Ikut gelap saat mode gelap */
