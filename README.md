@@ -18,7 +18,9 @@ memastikan halaman tetap terbuka normal. Seluruh tahapan pengerjaan dan komitmen
 Lembar A hingga Lembar F juga dilakukan sendiri.
 
 'note' - p11
-Saya mengubah layout menjadi inline agar tetap berada di tengah halaman saat mengecilkan/membesarkan web, lalu
+Saya mengubah layout menjadi inline agar tetap berada di tengah halaman saat mengecilkan/membesarkan web dan memberikan padding sehingga ada jarak antar button submit dan form kolom sebelumnya 
+
+
 # Pertemuan 10
 Deklarasi AI:** konsep respons.ok, async/await, dan pemisahan
 lapisan dibantu AI; data, integrasi HTML, dan pengujian 4 keadaan
